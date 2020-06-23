@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles/template.css" />
+  <link rel="stylesheet" type="text/css" href="styles/favorites.css" />
+  <title>Drive thru app</title>
+  <script defer src="scripts/index.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <span class="material-icons header__back-btn">
+      arrow_back_ios
+    </span>
+    <div class="header__title">즐겨찾기</div>
+  </header>
+  <nav class="nav-bar">
+    <div class="nav-bar__item">
+      <span class="material-icons nav-bar__item__icon">
+        home
+      </span>
+      <span class="nav-bar__item__text">홈</span>
+    </div>
+    <div class="nav-bar__item">
+      <span class="material-icons nav-bar__item__icon">
+        favorite
+      </span>
+      <span class="nav-bar__item__text">즐겨찾기</span>
+    </div>
+    <div class="nav-bar__item">
+      <span class="material-icons nav-bar__item__icon">
+        receipt_long
+      </span>
+      <span class="nav-bar__item__text">주문내역</span>
+    </div>
+    <div class="nav-bar__item">
+      <span class="material-icons nav-bar__item__icon">
+        perm_identity
+      </span>
+      <span class="nav-bar__item__text">마이페이지</span>
+    </div>
+  </nav>
+  <section class="container">
+    <div class="favorite-list">
+      <div class="box_restaurant">
+        <img src="https://www.bhc.co.kr/images/common/logo300.jpg" alt="bhc logo" class="box_restaurant_icon">
+        <div class="box_restaurant_name">BHC 치킨 낙성대점</div>
+        <div class="box_restaurant_distance">3.0km</div>
+        <div class="box_restaurant_rates">4.5 / 5.0</div>
+      </div>
+      <div class="box_restaurant">
+        <img src="https://www.bhc.co.kr/images/common/logo300.jpg" alt="bhc logo" class="box_restaurant_icon">
+        <div class="box_restaurant_name">BHC 치킨 서울대입구역점</div>
+        <div class="box_restaurant_distance">2.0km</div>
+        <div class="box_restaurant_rates">4.8 / 5.0</div>
+      </div>
+      <div class="box_restaurant">
+        <img src="https://www.bhc.co.kr/images/common/logo300.jpg" alt="bhc logo" class="box_restaurant_icon">
+        <div class="box_restaurant_name">BHC 치킨 샤로수길점</div>
+        <div class="box_restaurant_distance">2.5km</div>
+        <div class="box_restaurant_rates">4.7 / 5.0</div>
+      </div>
+      <div class="box_restaurant">
+        <img src="https://www.bhc.co.kr/images/common/logo300.jpg" alt="bhc logo" class="box_restaurant_icon">
+        <div class="box_restaurant_name">BHC 치킨 봉천점</div>
+        <div class="box_restaurant_distance">1.0km</div>
+        <div class="box_restaurant_rates">4.2 / 5.0</div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"></footer>
+</body>
+
+</html>
