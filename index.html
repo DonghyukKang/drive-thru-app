@@ -3,17 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <title>Drive thru app</title>
     <script defer src="scripts/index.js"></script>
   </head>
   <body>
-    <header class="header"></header>
-    <nav class="nav-bar"></nav>
+    <header class="header">
+      <div class="header__title">Drive-thru app</div>
+    </header>
+    <nav class="nav-bar">
+      <div class="nav-bar__item">
+        <span class="material-icons nav-bar__item__icon">
+          home
+        </span>
+        <span class="nav-bar__item__text">홈</span>
+      </div>
+      <div class="nav-bar__item">
+        <span class="material-icons nav-bar__item__icon">
+          favorite
+        </span>
+        <span class="nav-bar__item__text">즐겨찾기</span>
+      </div>
+      <div class="nav-bar__item">
+        <span class="material-icons nav-bar__item__icon">
+          receipt_long
+        </span>
+        <span class="nav-bar__item__text">주문내역</span>
+      </div>
+      <div class="nav-bar__item">
+        <span class="material-icons nav-bar__item__icon">
+          perm_identity
+        </span>
+        <span class="nav-bar__item__text">마이페이지</span>
+      </div>
+    </nav>
     <section class="container">
-        <div class="item">
-            <h1>Hello, HTML</h1>
+      <div class="main-banner">
+        <img class="main-banner__img" src="img/banner_3.jpg" alt="banner_3" />
+      </div>
+      <div class="search-bar">
+        <span class="material-icons search-bar__btn">
+          search
+        </span>
+        <input
+          class="search-bar__input"
+          type="text"
+          name="box"
+          placeholder="무엇을 먹을까요?"
+        />
+      </div>
+      <div class="category">
+        <div class="category__item" id="category-1">
+          <img class="category__item__icon" src="img/rice.svg" alt="korean" />
+          <div class="category__item__title">한식</div>
         </div>
+        <div class="category__item" id="category-2">
+          <img
+            class="category__item__icon"
+            src="img/fried-chicken.svg"
+            alt="chicken"
+          />
+          <div class="category__item__title">치킨</div>
+        </div>
+        <div class="category__item" id="category-3">
+          <img
+            class="category__item__icon"
+            src="img/gimbab.svg"
+            alt="boonsik"
+          />
+          <div class="category__item__title">분식</div>
+        </div>
+        <div class="category__item" id="category-4">
+          <img class="category__item__icon" src="img/burger.svg" alt="burger" />
+          <div class="category__item__title">패스트푸드</div>
+        </div>
+        <div class="category__item" id="category-5">
+          <img
+            class="category__item__icon"
+            src="img/bakery.svg"
+            alt="dessert"
+          />
+          <div class="category__item__title">카페·디저트</div>
+        </div>
+        <div class="category__item" id="category-6">
+          <img class="category__item__icon" src="img/pizza.svg" alt="pizza" />
+          <div class="category__item__title">피자</div>
+        </div>
+        <div class="category__item" id="category-7">
+          <img
+            class="category__item__icon"
+            src="img/chinese.svg"
+            alt="chinese"
+          />
+          <div class="category__item__title">중국집</div>
+        </div>
+        <div class="category__item" id="category-8">
+          <img class="category__item__icon" src="img/bento.svg" alt="bento" />
+          <div class="category__item__title">도시락</div>
+        </div>
+        <div class="category__item" id="category-9">
+          <img class="category__item__icon" src="img/sushi.svg" alt="sushi" />
+          <div class="category__item__title">일식</div>
+        </div>
+      </div>
     </section>
     <footer class="footer"></footer>
   </body>
