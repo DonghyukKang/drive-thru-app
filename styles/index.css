@@ -80,6 +80,10 @@ body {
   height: 100%;
 }
 
+.hide {
+  display: none;
+}
+
 .search-bar {
   grid-column: 4 / 22;
   grid-row: 2 / 3;
